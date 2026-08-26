@@ -1,0 +1,6 @@
+{
+  "name": "Prachurjo Tools",
+  "description": "Prachurjo Free Prachurjo Tools - TikTok Reels & Prompts Feed with 1-Click Copy, TikTok Video Downloader without Watermark, YouTube Thumbnail Downloader, Image Converter, Text Tools, and AI Smart Bot.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

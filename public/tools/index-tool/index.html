@@ -1,0 +1,415 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Prachurjo Sorkar — premium developer, creator and useful tools hub.">
+  <title>Prachurjo Sorkar — Developer & Creator</title>
+<!-- Single-file build: all CSS, JavaScript, portfolio and admin CMS are embedded here. -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=JetBrains+Mono:wght@500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+:root{--bg:#080b14;--panel:#0f1526;--panel2:#131a30;--line:#1e2740;--blue:#3b82f6;--cyan:#22d3c4;--text:#edf2fa;--muted:#8a93ac;--shadow:0 24px 80px rgba(0,0,0,.35)}*{box-sizing:border-box}html{scroll-behavior:smooth}body{margin:0;background:var(--bg);color:var(--text);font-family:Inter,system-ui,sans-serif;line-height:1.65;overflow-x:hidden}body:before{content:"";position:fixed;inset:0;pointer-events:none;background:radial-gradient(circle at 15% 15%,rgba(59,130,246,.09),transparent 30%),radial-gradient(circle at 85% 70%,rgba(34,211,196,.06),transparent 28%)}a{color:inherit;text-decoration:none}.bg-orb{position:fixed;width:360px;height:360px;border-radius:50%;filter:blur(90px);opacity:.12;pointer-events:none}.orb-a{background:var(--blue);top:5%;left:-180px}.orb-b{background:var(--cyan);right:-180px;bottom:10%}.site-header{position:fixed;z-index:50;top:16px;left:50%;transform:translateX(-50%);width:min(1160px,calc(100% - 28px));padding:12px 14px;display:flex;align-items:center;gap:18px;background:rgba(10,14,27,.72);backdrop-filter:blur(18px);border:1px solid rgba(255,255,255,.08);border-radius:18px;box-shadow:0 12px 40px rgba(0,0,0,.2)}.brand{display:flex;align-items:center;gap:10px;font-family:"Space Grotesk";font-weight:700;white-space:nowrap}.logo-mark{display:grid;place-items:center;width:38px;height:38px;border-radius:11px;background:linear-gradient(135deg,var(--blue),var(--cyan));color:#06101b;font-size:13px;box-shadow:0 0 28px rgba(59,130,246,.25)}.nav{display:flex;gap:4px;margin:auto}.nav a{padding:8px 11px;color:var(--muted);font-size:13px;border-radius:9px;transition:.25s}.nav a:hover,.nav a.active{color:var(--text);background:rgba(255,255,255,.06)}.header-cta{font-size:13px;font-weight:600;padding:9px 13px;border:1px solid var(--line);border-radius:10px}.icon-btn{display:none}.section{width:min(1160px,calc(100% - 36px));margin:auto;padding:105px 0 35px;scroll-margin-top:85px}.hero{min-height:760px;display:grid;grid-template-columns:1.05fr .95fr;align-items:center;gap:60px;padding-top:155px}.eyebrow,.kicker{font:600 11px "JetBrains Mono";letter-spacing:.14em;color:var(--cyan)}.eyebrow{display:flex;align-items:center;gap:9px}.pulse{width:7px;height:7px;border-radius:50%;background:var(--cyan);box-shadow:0 0 15px var(--cyan)}h1,h2{font-family:"Space Grotesk";line-height:1.08;margin:18px 0}h1{font-size:clamp(45px,7vw,78px);letter-spacing:-.055em;max-width:800px}.gradient-text{background:linear-gradient(90deg,#fff 5%,var(--blue),var(--cyan));-webkit-background-clip:text;background-clip:text;color:transparent}h2{font-size:clamp(34px,5vw,54px);letter-spacing:-.04em}p{color:var(--muted)}.hero-copy>p{font-size:18px;max-width:650px}.hero-actions{display:flex;gap:12px;margin:30px 0}.btn{display:inline-flex;align-items:center;gap:9px;padding:13px 17px;border-radius:11px;font-weight:700;font-size:13px;border:1px solid var(--line);transition:.25s}.btn:hover{transform:translateY(-2px)}.btn.primary{background:linear-gradient(135deg,var(--blue),#2563eb);border-color:transparent;box-shadow:0 12px 35px rgba(59,130,246,.22)}.btn.ghost{background:rgba(255,255,255,.025)}.stats{display:flex;gap:35px;margin-top:38px}.stat b{display:block;font:700 24px "Space Grotesk"}.stat span{font-size:11px;color:var(--muted)}.visual-card{position:relative;min-height:390px;border:1px solid var(--line);background:linear-gradient(145deg,rgba(19,26,48,.9),rgba(10,14,27,.75));border-radius:25px;box-shadow:var(--shadow);overflow:hidden}.terminal-head{height:48px;border-bottom:1px solid var(--line);display:flex;align-items:center;gap:7px;padding:0 17px;color:var(--muted);font:11px "JetBrains Mono"}.terminal-head span{width:8px;height:8px;border-radius:50%;background:#36405c}.terminal-head b{margin-left:auto;font-weight:500}.terminal-body{padding:35px;font:14px/2 "JetBrains Mono";color:#b7c0d5}.terminal-body em{color:var(--cyan);font-style:normal}.terminal-body strong{color:#7db2ff;font-weight:500}.cursor-line{margin-top:22px;color:#cbd5e1}.cursor-line span{color:var(--muted)}.connection-svg{position:absolute;bottom:12px;left:20px;width:calc(100% - 40px);height:150px;opacity:.55}.connection-svg path{stroke:var(--blue);stroke-width:1.2}.connection-svg circle{fill:var(--cyan);filter:drop-shadow(0 0 6px var(--cyan))}.section-head{margin-bottom:35px}.section-head p{max-width:600px}.glass,.skill-card,.tool-card,.project-card,.service-card{background:rgba(15,21,38,.68);border:1px solid var(--line);box-shadow:0 18px 55px rgba(0,0,0,.18)}.about-grid{display:grid;grid-template-columns:1.3fr 1fr;gap:18px}.about-main{border-radius:20px;padding:30px}.about-main>p{font-size:17px}.about-points{display:grid;gap:10px;margin-top:25px}.about-points div{padding:12px 14px;border:1px solid var(--line);border-radius:12px;background:rgba(255,255,255,.02)}.about-points b{font-size:13px}.about-points span{display:block;color:var(--muted);font-size:12px}.mini-grid{display:grid;grid-template-columns:1fr 1fr;gap:12px}.mini-card{padding:24px;border:1px solid var(--line);border-radius:18px;background:linear-gradient(145deg,rgba(19,26,48,.8),rgba(15,21,38,.6))}.mini-card .mini-icon{margin-bottom:22px}.mini-card b{display:block;font-family:"Space Grotesk";font-size:16px}.mini-card span{font-size:12px;color:var(--muted)}.skill-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:12px}.skill-card{padding:20px;border-radius:17px}.skill-top{display:flex;align-items:center;gap:11px}.skill-icon,.card-icon{display:grid;place-items:center;width:38px;height:38px;border-radius:10px;background:rgba(59,130,246,.11);color:#77a9ff}.skill-card b{font-size:13px}.bar{height:4px;border-radius:5px;background:#1b243b;margin-top:18px;overflow:hidden}.bar i{display:block;height:100%;width:var(--level);background:linear-gradient(90deg,var(--blue),var(--cyan));border-radius:5px}.tool-controls{display:flex;gap:12px;align-items:center;margin-bottom:22px}.search-box{display:flex;align-items:center;gap:10px;flex:1;max-width:390px;padding:12px 14px;background:var(--panel);border:1px solid var(--line);border-radius:12px}.search-box input{width:100%;background:none;border:0;outline:0;color:var(--text);font:13px Inter}.filters{display:flex;gap:7px;flex-wrap:wrap}.filter{border:1px solid var(--line);background:rgba(255,255,255,.02);color:var(--muted);padding:9px 12px;border-radius:9px;font-size:11px;cursor:pointer}.filter.active,.filter:hover{background:rgba(59,130,246,.13);color:#a9c8ff;border-color:rgba(59,130,246,.35)}.tool-grid,.project-grid,.service-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:13px}.tool-card,.project-card,.service-card{border-radius:18px;padding:21px;transition:.25s}.tool-card:hover,.project-card:hover,.service-card:hover,.skill-card:hover{transform:translateY(-4px);border-color:#2c3c61}.card-top{display:flex;justify-content:space-between;align-items:center}.tag{font:500 10px "JetBrains Mono";color:#86a9e6;background:rgba(59,130,246,.09);border:1px solid rgba(59,130,246,.16);padding:5px 8px;border-radius:7px}.tool-card h3,.project-card h3,.service-card h3{font:600 17px "Space Grotesk";margin:18px 0 5px}.tool-card p,.project-card p,.service-card p{font-size:12px;min-height:43px}.tool-foot{display:flex;align-items:center;justify-content:space-between;margin-top:20px}.open-link{display:inline-flex;align-items:center;gap:7px;font-size:12px;color:#9ec2ff;font-weight:700}.techs{display:flex;gap:5px;flex-wrap:wrap;margin:15px 0}.techs span{font-size:10px;color:var(--muted);border:1px solid var(--line);padding:4px 7px;border-radius:6px}.project-links{display:flex;gap:12px}.project-links a{font-size:11px;color:#9ec2ff}.service-card{min-height:190px}.service-card .card-icon{margin-bottom:17px}.empty-state{text-align:center;padding:55px;border:1px dashed var(--line);border-radius:18px;color:var(--muted)}.hidden{display:none!important}.contact-card{display:flex;align-items:center;justify-content:space-between;gap:30px;padding:38px;border-radius:24px;border:1px solid var(--line);background:linear-gradient(120deg,rgba(59,130,246,.11),rgba(34,211,196,.05),rgba(15,21,38,.7));box-shadow:var(--shadow)}.contact-card h2{margin-bottom:10px}.contact-card p{margin:0}.social-row{display:flex;gap:9px;flex-wrap:wrap;margin-top:18px}.social-row a{padding:10px 13px;border:1px solid var(--line);border-radius:10px;color:var(--muted);font-size:12px;display:flex;align-items:center;gap:8px}footer{width:min(1160px,calc(100% - 36px));margin:65px auto 0;padding:25px 0 40px;border-top:1px solid var(--line);display:flex;justify-content:space-between;gap:20px;color:var(--muted);font-size:11px}footer b{display:block;color:var(--text);margin-bottom:5px;font-family:"Space Grotesk"}footer span{display:block}.i{display:inline-block;width:17px;height:17px;position:relative;vertical-align:middle}.i:before,.i:after{content:"";position:absolute}.i-arrow:before{width:9px;height:9px;border-top:1.5px solid currentColor;border-right:1.5px solid currentColor;transform:rotate(45deg);top:3px;left:1px}.i-arrow:after{width:13px;height:1.5px;background:currentColor;top:8px;left:0}.i-folder:before{width:15px;height:11px;border:1.5px solid currentColor;border-radius:2px;left:0;top:3px}.i-search:before{width:9px;height:9px;border:1.5px solid currentColor;border-radius:50%;left:1px;top:1px}.i-search:after{width:7px;height:1.5px;background:currentColor;transform:rotate(45deg);left:10px;top:12px}.i-mail:before{inset:2px 0;border:1.5px solid currentColor;border-radius:3px}.i-mail:after{width:9px;height:9px;border-left:1.5px solid currentColor;border-bottom:1.5px solid currentColor;transform:rotate(-45deg);left:4px;top:-1px}.i-menu:before{width:18px;height:1.5px;background:currentColor;left:0;top:4px;box-shadow:0 6px currentColor,0 12px currentColor}.reveal{animation:rise .7s both}@keyframes rise{from{opacity:0;transform:translateY(18px)}to{opacity:1;transform:none}}@media(max-width:900px){.nav{display:none;position:absolute;top:65px;left:0;right:0;padding:10px;flex-direction:column;background:rgba(10,14,27,.96);border:1px solid var(--line);border-radius:15px}.nav.open{display:flex}.nav a{padding:12px}.header-cta{display:none}.menu-btn{display:block;margin-left:auto;background:none;border:0;color:var(--text);cursor:pointer}.hero{grid-template-columns:1fr;min-height:auto;padding-top:135px}.hero-visual{max-width:700px;width:100%;margin:auto}.skill-grid{grid-template-columns:repeat(2,1fr)}.tool-grid,.project-grid,.service-grid{grid-template-columns:repeat(2,1fr)}}@media(max-width:620px){.section{width:min(100% - 24px,1160px);padding-top:85px}.site-header{top:8px;width:calc(100% - 16px)}.brand{font-size:13px}.logo-mark{width:34px;height:34px}.hero{padding-top:110px}.hero-actions{flex-direction:column}.btn{justify-content:center}.stats{gap:18px;flex-wrap:wrap}.visual-card{min-height:300px}.terminal-body{padding:25px 18px;font-size:11px}.about-grid{grid-template-columns:1fr}.mini-grid{grid-template-columns:1fr 1fr}.skill-grid,.tool-grid,.project-grid,.service-grid{grid-template-columns:1fr}.tool-controls{flex-direction:column;align-items:stretch}.search-box{max-width:none}.contact-card{padding:26px;flex-direction:column;align-items:flex-start}footer{flex-direction:column}.section-head{margin-bottom:25px}}@media(prefers-reduced-motion:reduce){*{scroll-behavior:auto!important;animation:none!important;transition:none!important}}
+
+.admin-panel.hidden{display:none!important}.admin-panel{position:fixed;z-index:999;inset:0;background:#080b14;color:var(--text);overflow:auto}.admin-shell{min-height:100%;display:flex}.admin-side{width:245px;background:#0a0f1c;border-right:1px solid var(--line);padding:22px 14px;position:fixed;inset:0 auto 0 0;overflow:auto}.admin-side-brand{display:flex;align-items:center;gap:10px;font-family:"Space Grotesk";margin:3px 8px 28px}.admin-side-brand small{display:block;color:var(--muted);font:9px "JetBrains Mono";letter-spacing:.12em}.admin-side nav{display:grid;gap:5px}.admin-side nav button{width:100%;border:1px solid transparent;background:none;color:var(--muted);text-align:left;padding:11px 12px;border-radius:9px;cursor:pointer;font:500 12px Inter}.admin-side nav button.active,.admin-side nav button:hover{color:var(--text);background:rgba(59,130,246,.1);border-color:rgba(59,130,246,.14)}.admin-content{margin-left:245px;width:calc(100% - 245px);padding:30px clamp(15px,4vw,50px)}.admin-top{display:flex;align-items:center;justify-content:space-between;border-bottom:1px solid var(--line);padding-bottom:20px;margin-bottom:25px}.admin-top h2{margin:7px 0 0;font-size:32px}.admin-cards{display:grid;grid-template-columns:repeat(5,1fr);gap:11px}.admin-card,.admin-panel-box{background:var(--panel);border:1px solid var(--line);border-radius:15px;padding:19px}.admin-card b{font:700 27px "Space Grotesk";display:block}.admin-card span{font-size:11px;color:var(--muted)}.admin-panel-box{margin-top:16px}.admin-panel-box h3{margin-top:0}.admin-table{width:100%;border-collapse:collapse;min-width:650px}.admin-table th,.admin-table td{text-align:left;padding:11px;border-bottom:1px solid var(--line);font-size:11px}.admin-table th{color:var(--muted);font-weight:500}.admin-table-wrap{overflow:auto}.admin-action{border:1px solid var(--line);background:none;color:var(--muted);padding:6px 8px;border-radius:6px;cursor:pointer;margin-right:4px}.admin-action:hover{color:var(--text)}.admin-form{display:grid;grid-template-columns:1fr 1fr;gap:12px}.admin-field{display:grid;gap:6px}.admin-field.full{grid-column:1/-1}.admin-field label{font-size:11px;color:var(--muted)}.admin-field input,.admin-field textarea,.admin-field select{width:100%;border:1px solid var(--line);background:#0b1120;color:var(--text);border-radius:9px;padding:11px;outline:0;font:13px Inter}.admin-field textarea{min-height:100px;resize:vertical}.admin-form-actions{display:flex;gap:8px;grid-column:1/-1}.admin-notice{padding:15px;border:1px dashed var(--line);border-radius:12px;color:var(--muted);font-size:12px}.admin-trigger{border:0;background:none;color:var(--muted);font-size:10px;cursor:pointer}.admin-trigger:hover{color:var(--text)}.admin-modal{position:fixed;inset:0;background:rgba(0,0,0,.72);backdrop-filter:blur(5px);display:grid;place-items:center;padding:16px;z-index:1200}.admin-modal.hidden{display:none}.admin-modal-box{width:min(680px,100%);max-height:90vh;overflow:auto;background:var(--panel2);border:1px solid var(--line);border-radius:18px;padding:24px;position:relative}.admin-modal-close{position:absolute;right:14px;top:10px;background:none;border:0;color:var(--muted);font-size:24px;cursor:pointer}.admin-toast{position:fixed;right:18px;bottom:18px;background:#152038;border:1px solid #2c3c5e;border-radius:10px;padding:11px 14px;font-size:12px;opacity:0;transform:translateY(10px);transition:.2s;z-index:1300}.admin-toast.show{opacity:1;transform:none}.admin-status{display:inline-block;font-size:9px;padding:4px 7px;border-radius:6px;background:rgba(34,211,196,.1);color:var(--cyan)}.admin-status.off{background:rgba(255,255,255,.05);color:var(--muted)}@media(max-width:900px){.admin-side{transform:translateX(-100%);transition:.2s}.admin-side.open{transform:none}.admin-content{margin-left:0;width:100%}.admin-cards{grid-template-columns:repeat(2,1fr)}}@media(max-width:560px){.admin-content{padding:20px 12px}.admin-form{grid-template-columns:1fr}.admin-field.full,.admin-form-actions{grid-column:auto}.admin-top{align-items:flex-start;gap:10px}.admin-top h2{font-size:27px}}
+
+
+/* ===== PREMIUM DESIGN REFRESH — inspired by supplied reference ===== */
+:root{
+  --bg:#070711;
+  --panel:#0d0d19;
+  --panel2:#121221;
+  --line:#25243a;
+  --blue:#6366f1;
+  --violet:#8b5cf6;
+  --cyan:#22d3ee;
+  --text:#f7f7fb;
+  --muted:#9695aa;
+  --soft:#181827;
+  --glow:rgba(99,102,241,.22);
+  --shadow:0 30px 90px rgba(0,0,0,.42);
+}
+body{
+  background:
+    radial-gradient(900px 500px at 50% -180px,rgba(99,102,241,.16),transparent 62%),
+    radial-gradient(700px 500px at 100% 45%,rgba(139,92,246,.08),transparent 65%),
+    var(--bg);
+}
+body:after{
+  content:"";position:fixed;inset:0;pointer-events:none;opacity:.28;
+  background-image:linear-gradient(rgba(255,255,255,.018) 1px,transparent 1px),
+  linear-gradient(90deg,rgba(255,255,255,.018) 1px,transparent 1px);
+  background-size:48px 48px;
+  mask-image:linear-gradient(to bottom,#000,transparent 80%);
+}
+.site-header{
+  top:12px;width:min(1180px,calc(100% - 22px));
+  background:rgba(10,10,20,.74);
+  border-color:rgba(139,92,246,.18);
+  box-shadow:0 14px 55px rgba(0,0,0,.34);
+}
+.logo-mark{
+  background:linear-gradient(135deg,#6366f1,#8b5cf6);
+  color:#fff;box-shadow:0 0 30px rgba(99,102,241,.28);
+}
+.nav a{font-size:12px}
+.nav a:hover,.nav a.active{background:rgba(99,102,241,.10);color:#c7c5ff}
+.header-cta{
+  background:linear-gradient(135deg,#6366f1,#7c3aed);
+  border-color:transparent;color:#fff;
+  box-shadow:0 8px 28px rgba(99,102,241,.18);
+}
+.section{padding-top:95px}
+.hero{
+  min-height:735px;padding-top:145px;gap:52px;
+}
+.eyebrow,.kicker{color:#a78bfa}
+.pulse{background:#a78bfa;box-shadow:0 0 18px #8b5cf6}
+h1{font-size:clamp(46px,7vw,82px);letter-spacing:-.065em}
+.gradient-text{
+  background:linear-gradient(90deg,#fff 8%,#a78bfa 48%,#6366f1 100%);
+}
+.hero-copy>p{font-size:17px;color:#aaa9bb}
+.btn.primary{
+  background:linear-gradient(135deg,#6366f1,#7c3aed);
+  box-shadow:0 14px 38px rgba(99,102,241,.25);
+}
+.btn.ghost{background:rgba(255,255,255,.035)}
+.visual-card{
+  min-height:410px;
+  background:
+    radial-gradient(circle at 70% 25%,rgba(99,102,241,.15),transparent 30%),
+    linear-gradient(145deg,#151527,#0b0b15 72%);
+  border-color:#292840;
+  box-shadow:0 35px 100px rgba(0,0,0,.48),inset 0 1px rgba(255,255,255,.035);
+}
+.visual-card:before{
+  content:"";position:absolute;inset:0;
+  background:linear-gradient(120deg,transparent 25%,rgba(255,255,255,.025),transparent 55%);
+  transform:translateX(-100%);animation:cardShine 6s ease-in-out infinite;
+}
+@keyframes cardShine{50%,100%{transform:translateX(100%)}}
+.terminal-head{border-color:#25243a}
+.terminal-body{color:#bcb9d0}
+.terminal-body em{color:#a78bfa}.terminal-body strong{color:#818cf8}
+.connection-svg path{stroke:#7c3aed}.connection-svg circle{fill:#a78bfa;filter:drop-shadow(0 0 8px #8b5cf6)}
+.section-head{margin-bottom:27px}
+.section-head h2{margin-bottom:10px}
+.glass,.skill-card,.tool-card,.project-card,.service-card{
+  background:linear-gradient(145deg,rgba(19,19,34,.88),rgba(11,11,20,.78));
+  border-color:#25243a;
+  box-shadow:0 18px 60px rgba(0,0,0,.24),inset 0 1px rgba(255,255,255,.025);
+}
+.about-main{border-radius:22px}
+.mini-card{background:linear-gradient(145deg,#171727,#0e0e19);border-color:#28273c}
+.skill-card{border-radius:16px}
+.skill-icon,.card-icon{
+  background:rgba(99,102,241,.11);color:#a78bfa;
+  border:1px solid rgba(139,92,246,.10);
+}
+.bar{background:#1b1a2a}
+.bar i{background:linear-gradient(90deg,#6366f1,#8b5cf6,#22d3ee)}
+.tool-controls{
+  align-items:stretch;flex-direction:column;gap:12px;
+}
+.search-box{
+  max-width:none;width:100%;height:50px;
+  background:#0e0e19;border-color:#29283d;
+  box-shadow:inset 0 1px rgba(255,255,255,.025);
+}
+.search-box:focus-within{border-color:rgba(139,92,246,.55);box-shadow:0 0 0 4px rgba(99,102,241,.07)}
+.filters{gap:7px}
+.filter{
+  background:#10101c;border-color:#28273b;color:#9291a5;
+  padding:9px 13px;border-radius:9px;
+}
+.filter.active,.filter:hover{
+  background:linear-gradient(135deg,rgba(99,102,241,.20),rgba(139,92,246,.12));
+  color:#c7c5ff;border-color:rgba(139,92,246,.38);
+}
+.tool-grid{grid-template-columns:repeat(3,minmax(0,1fr));gap:12px}
+.tool-card{
+  min-height:245px;border-radius:17px;padding:19px;
+  position:relative;overflow:hidden;
+}
+.tool-card:after{
+  content:"";position:absolute;right:-55px;bottom:-75px;width:150px;height:150px;
+  background:radial-gradient(circle,rgba(99,102,241,.13),transparent 68%);
+  pointer-events:none;
+}
+.tool-card:hover,.project-card:hover,.service-card:hover,.skill-card:hover{
+  transform:translateY(-5px);
+  border-color:rgba(129,116,255,.42);
+  box-shadow:0 24px 70px rgba(0,0,0,.34),0 0 0 1px rgba(99,102,241,.06);
+}
+.tag{
+  color:#a9a6c7;background:rgba(255,255,255,.035);border-color:#29283d;
+}
+.tool-card h3{font-size:16px;line-height:1.3}
+.tool-card p{color:#9190a4;min-height:55px}
+.open-link{color:#a7a2ff}
+.project-card,.service-card{border-radius:17px}
+.contact-card{
+  border-color:#2b2940;
+  background:
+    radial-gradient(circle at 10% 20%,rgba(99,102,241,.18),transparent 38%),
+    linear-gradient(120deg,#15152a,#0c0c16);
+}
+.social-row a:hover{border-color:rgba(139,92,246,.35);color:#c7c5ff;background:rgba(99,102,241,.07)}
+footer{border-color:#222136}
+.admin-panel{background:#070711}
+.admin-side{background:#0a0a14;border-color:#25243a}
+.admin-side nav button.active,.admin-side nav button:hover{
+  background:rgba(99,102,241,.11);border-color:rgba(139,92,246,.18);color:#d4d2ff;
+}
+.admin-card,.admin-panel-box{background:linear-gradient(145deg,#121220,#0c0c16);border-color:#28273c}
+.admin-field input,.admin-field textarea,.admin-field select{background:#0b0b15;border-color:#29283d}
+.admin-status{color:#a78bfa;background:rgba(99,102,241,.10)}
+@media(max-width:900px){
+  .hero{grid-template-columns:1fr;min-height:auto;padding-top:130px}
+  .visual-card{min-height:350px}
+  .tool-grid,.project-grid,.service-grid{grid-template-columns:repeat(2,minmax(0,1fr))}
+  .skill-grid{grid-template-columns:repeat(2,1fr)}
+}
+@media(max-width:600px){
+  .site-header{top:8px}
+  .section{width:min(100% - 24px,1160px);padding-top:78px}
+  .hero{padding-top:105px}
+  h1{font-size:clamp(42px,14vw,64px)}
+  .hero-copy>p{font-size:15px}
+  .hero-actions{flex-direction:column}
+  .hero-actions .btn{justify-content:center}
+  .stats{gap:18px;flex-wrap:wrap}
+  .tool-grid,.project-grid,.service-grid,.skill-grid{grid-template-columns:1fr}
+  .mini-grid{grid-template-columns:1fr}
+  .about-grid{grid-template-columns:1fr}
+  .contact-card{padding:25px;align-items:flex-start;flex-direction:column}
+  footer{flex-direction:column}
+}
+@media(prefers-reduced-motion:reduce){
+  .visual-card:before{animation:none}
+}
+
+</style>
+</head>
+<body>
+<div class="bg-orb orb-a"></div><div class="bg-orb orb-b"></div>
+<header class="site-header" id="top">
+  <a class="brand" href="#home" aria-label="Prachurjo Sorkar home">
+    <span class="logo-mark">PS</span><span data-brand>Prachurjo Sorkar</span>
+  </a>
+  <button class="icon-btn menu-btn" id="menuBtn" aria-label="Open navigation" aria-expanded="false"><span class="i i-menu"></span></button>
+  <nav class="nav" id="nav">
+    <a href="#home">Home</a><a href="#about">About</a><a href="#skills">Skills</a><a href="#tools">Tools</a><a href="#projects">Projects</a><a href="#services">Services</a><a href="#contact">Contact</a>
+  </nav>
+  <a class="header-cta" href="#contact">Let's Connect <span class="i i-arrow"></span></a>
+</header>
+
+<main>
+<section class="hero section" id="home">
+  <div class="hero-copy reveal">
+    <div class="eyebrow"><span class="pulse"></span><span id="heroEyebrow">CREATOR · DEVELOPER · DIGITAL BUILDER</span></div>
+    <h1 id="heroTitle">Hi, I'm <span class="gradient-text">Prachurjo Sorkar</span></h1>
+    <p id="heroDescription">A student, creator and developer building useful digital tools, modern web experiences and practical projects.</p>
+    <div class="hero-actions">
+      <a class="btn primary" href="#tools" id="toolsCta">Explore Tools <span class="i i-arrow"></span></a>
+      <a class="btn ghost" href="#projects" id="projectsCta">View Projects <span class="i i-folder"></span></a>
+    </div>
+    <div class="stats" id="stats"></div>
+  </div>
+  <div class="hero-visual reveal">
+    <div class="visual-card">
+      <div class="terminal-head"><span></span><span></span><span></span><b>~/prachurjo</b></div>
+      <div class="terminal-body"><div><em>const</em> creator = <strong>"Prachurjo"</strong>;</div><div><em>const</em> mission = <strong>"build useful things"</strong>;</div><div class="cursor-line">&gt; <span>creating digital experiences_</span></div></div>
+      <svg class="connection-svg" viewBox="0 0 500 180" aria-hidden="true"><path d="M15 145 C100 20,145 160,225 75 S355 25,485 115" fill="none"/><circle cx="15" cy="145" r="5"/><circle cx="225" cy="75" r="5"/><circle cx="485" cy="115" r="5"/></svg>
+    </div>
+  </div>
+</section>
+
+<section class="section" id="about">
+  <div class="section-head reveal"><span class="kicker">01 / ABOUT</span><h2>About Me</h2><p>Building, learning and experimenting with technology.</p></div>
+  <div class="about-grid">
+    <article class="glass about-main reveal"><p id="aboutIntro"></p><div class="about-points" id="aboutPoints"></div></article>
+    <div class="mini-grid" id="aboutCards"></div>
+  </div>
+</section>
+
+<section class="section" id="skills">
+  <div class="section-head reveal"><span class="kicker">02 / SKILLS</span><h2>What I Work With</h2><p>Practical skills for building responsive digital products.</p></div>
+  <div class="skill-grid" id="skillsGrid"></div>
+</section>
+
+<section class="section tools-section" id="tools">
+  <div class="section-head reveal"><span class="kicker">03 / TOOLS HUB</span><h2>Useful Tools</h2><p>Simple tools built to make everyday tasks easier.</p></div>
+  <div class="tool-controls reveal"><label class="search-box"><span class="i i-search"></span><input id="toolSearch" type="search" placeholder="Search tools..." autocomplete="off"></label><div class="filters" id="categoryFilters"></div></div>
+  <div class="tool-grid" id="toolGrid"></div>
+  <div class="empty-state hidden" id="toolEmpty">No tools found</div>
+</section>
+
+<section class="section" id="projects">
+  <div class="section-head reveal"><span class="kicker">04 / PROJECTS</span><h2>Selected Projects</h2><p>Experiments and products built with curiosity and code.</p></div>
+  <div class="project-grid" id="projectGrid"></div>
+</section>
+
+<section class="section" id="services">
+  <div class="section-head reveal"><span class="kicker">05 / SERVICES</span><h2>What I Can Build</h2><p>Digital solutions focused on clarity, usefulness and quality.</p></div>
+  <div class="service-grid" id="serviceGrid"></div>
+</section>
+
+<section class="section contact-section" id="contact">
+  <div class="contact-card reveal">
+    <div><span class="kicker">06 / CONTACT</span><h2>Let's build something useful.</h2><p id="contactText">Have an idea, project or collaboration in mind?</p></div>
+    <a class="btn primary" id="emailBtn" href="mailto:hello@example.com">Contact Me <span class="i i-mail"></span></a>
+  </div>
+  <div class="social-row" id="socialRow"></div>
+</section>
+</main>
+
+<!-- ========================= ADMIN PANEL ========================= -->
+<section id="adminPanel" class="admin-panel hidden">
+  <div class="admin-shell">
+    <aside class="admin-side">
+      <div class="admin-side-brand"><span class="logo-mark">PS</span><div><b>Prachurjo</b><small>ADMIN CMS</small></div></div>
+      <nav id="adminNav">
+        <button data-admin-page="dashboard" class="active">▦ Dashboard</button>
+        <button data-admin-page="homepage">⌂ Homepage</button>
+        <button data-admin-page="about">◉ About</button>
+        <button data-admin-page="skills">◇ Skills</button>
+        <button data-admin-page="tools">✦ Tools</button>
+        <button data-admin-page="categories"># Categories</button>
+        <button data-admin-page="projects">▱ Projects</button>
+        <button data-admin-page="services">▣ Services</button>
+        <button data-admin-page="contact">✉ Contact</button>
+        <button data-admin-page="social">↗ Social Links</button>
+        <button data-admin-page="settings">⚙ Site Settings</button>
+        <button data-admin-page="supabase">◎ Supabase</button>
+      </nav>
+    </aside>
+    <div class="admin-content">
+      <div class="admin-top">
+        <div><span class="kicker">PRACHURJO SORKAR</span><h2 id="adminTitle">Dashboard</h2></div>
+        <button class="btn ghost" id="closeAdmin">← View Website</button>
+      </div>
+      <div id="adminApp"></div>
+    </div>
+  </div>
+</section>
+
+<footer><button id="openAdmin" class="admin-trigger" aria-label="Open Admin Panel">Admin</button><div><b data-brand>Prachurjo Sorkar</b><span id="footerText">Useful digital experiences, one project at a time.</span></div><div>© 2026 <span data-brand>Prachurjo Sorkar</span>. All rights reserved.</div></footer>
+<script>
+const DB_KEY="prachurjoCMS_v2";const defaults={siteSettings:{brand:"Prachurjo Sorkar",footer:"Useful digital experiences, one project at a time."},homepage:{eyebrow:"CREATOR · DEVELOPER · DIGITAL BUILDER",title:"Hi, I'm Prachurjo Sorkar",description:"A student, creator and developer building useful digital tools, modern web experiences and practical projects.",toolsCta:"Explore Tools",projectsCta:"View Projects"},about:{intro:"I'm a student and digital creator who enjoys turning ideas into useful, clean and accessible web experiences. I learn by building practical projects and experimenting with new technologies.",points:[["What I build","Useful web tools, interfaces and small digital products."],["What I am learning","Modern frontend development, backend concepts and product thinking."],["Mindset","Keep learning, solve real problems and make every project better."]]},skills:[["HTML","Web structure",90],["CSS","Responsive UI",88],["JavaScript","Interactive web",82],["Responsive Design","Mobile-first",86],["UI Design","Clean interfaces",78],["Web Tools","Useful utilities",84],["Firebase / Backend","Backend concepts",68],["Git / GitHub","Version control",72]],categories:["Study","Calculator","Developer","Text","Utility","Productivity"],tools:[["GPA Calculator","Calculate GPA quickly and easily.","Study","https://example.com/gpa"],["Age Calculator","Calculate age from a date of birth.","Calculator","https://example.com/age"],["Percentage Calculator","Calculate percentages and changes.","Calculator","https://example.com/percentage"],["Word & Character Counter","Count words, characters and spaces.","Text","https://example.com/counter"],["Password Generator","Generate a strong random password.","Utility","https://example.com/password"],["Color Picker","Explore colors and copy their values.","Developer","https://example.com/color"],["QR Code Generator","Create QR codes from text or links.","Utility","https://example.com/qr"],["Unit Converter","Convert common measurement units.","Utility","https://example.com/unit"],["Currency Converter","Convert currencies with your preferred source.","Calculator","https://example.com/currency"],["Text Formatter","Clean and format text quickly.","Text","https://example.com/formatter"],["Case Converter","Convert text between common cases.","Text","https://example.com/case"],["Text Cleaner","Remove unwanted whitespace and symbols.","Text","https://example.com/cleaner"],["JSON Formatter","Format and inspect JSON data.","Developer","https://example.com/json"],["HTML Formatter","Format HTML for easier reading.","Developer","https://example.com/html"],["CSS Formatter","Format CSS code cleanly.","Developer","https://example.com/css"],["JavaScript Formatter","Format JavaScript code cleanly.","Developer","https://example.com/js"]],projects:[["Prachurjo Tools","A collection of lightweight utilities designed for everyday tasks.",["HTML","CSS","JavaScript"],"https://example.com",""],["Personal Portfolio","A premium responsive portfolio and creator hub.",["HTML","CSS","JavaScript"],"https://example.com",""],["Digital Experiments","Small experiments for learning, testing and building.",["Web","UI","Tools"],"https://example.com",""]],services:[["Web Development","Responsive websites and useful web applications."],["Landing Page Design","Modern landing pages with clear visual hierarchy."],["UI/UX Design","Clean, practical interfaces focused on usability."],["Web Tools Development","Custom calculators, converters and productivity tools."],["Website Customization","Improvements, sections and frontend customization."]],contact:{text:"Have an idea, project or collaboration in mind?",email:"hello@example.com"},socialLinks:[["GitHub","https://github.com/","github"],["Facebook","https://facebook.com/","facebook"],["Telegram","https://t.me/","telegram"],["LinkedIn","https://linkedin.com/","linkedin"]]};function loadDB(){try{const x=JSON.parse(localStorage.getItem(DB_KEY));return x?{...defaults,...x}:structuredClone(defaults)}catch{return structuredClone(defaults)}}const db=loadDB();const $=s=>document.querySelector(s);const esc=s=>String(s??"").replace(/[&<>"']/g,m=>({"&":"&amp;","<":"&lt;",">":"&gt;","\"":"&quot;","'":"&#039;"}[m]));const icons={code:"</>",tool:"✦",folder:"▱",user:"◉",brief:"▣"};function render(){document.querySelectorAll("[data-brand]").forEach(e=>e.textContent=db.siteSettings.brand);$("#heroEyebrow").textContent=db.homepage.eyebrow;$("#heroTitle").innerHTML=esc(db.homepage.title).replace(esc(db.siteSettings.brand),`<span class="gradient-text">${esc(db.siteSettings.brand)}</span>`);$("#heroDescription").textContent=db.homepage.description;$("#toolsCta").innerHTML=esc(db.homepage.toolsCta)+' <span class="i i-arrow"></span>';$("#projectsCta").innerHTML=esc(db.homepage.projectsCta)+' <span class="i i-folder"></span>';$("#footerText").textContent=db.siteSettings.footer;$("#aboutIntro").textContent=db.about.intro;$("#aboutPoints").innerHTML=db.about.points.map(x=>`<div><b>${esc(x[0])}</b><span>${esc(x[1])}</span></div>`).join("");$("#aboutCards").innerHTML=[["Web Development","Responsive websites","code"],["UI / UX","Clear interfaces","user"],["Tools & Utilities","Practical products","tool"],["Problem Solving","Build. Test. Improve.","brief"]].map(x=>`<div class="mini-card"><div class="mini-icon card-icon">${icons[x[2]]}</div><b>${esc(x[0])}</b><span>${esc(x[1])}</span></div>`).join("");$("#skillsGrid").innerHTML=db.skills.map(s=>`<div class="skill-card"><div class="skill-top"><div class="skill-icon">${icons.code}</div><b>${esc(s[0])}</b></div><p>${esc(s[1])}</p><div class="bar"><i style="--level:${Math.max(0,Math.min(100,Number(s[2])||0))}%"></i></div></div>`).join("");renderFilters();renderTools();$("#projectGrid").innerHTML=db.projects.map(p=>`<article class="project-card"><div class="card-top"><div class="card-icon">${icons.folder}</div></div><h3>${esc(p[0])}</h3><p>${esc(p[1])}</p><div class="techs">${(p[2]||[]).map(t=>`<span>${esc(t)}</span>`).join("")}</div><div class="project-links"><a href="${safeUrl(p[3])}" target="_blank" rel="noopener noreferrer">Live Project ↗</a>${safeUrl(p[4])?`<a href="${safeUrl(p[4])}" target="_blank" rel="noopener noreferrer">GitHub ↗</a>`:""}</div></article>`).join("");$("#serviceGrid").innerHTML=db.services.map(s=>`<article class="service-card"><div class="card-icon">${icons.brief}</div><h3>${esc(s[0])}</h3><p>${esc(s[1])}</p></article>`).join("");$("#contactText").textContent=db.contact.text;$("#emailBtn").href=`mailto:${esc(db.contact.email)}`;$("#socialRow").innerHTML=db.socialLinks.map(s=>`<a href="${safeUrl(s[1])}" target="_blank" rel="noopener noreferrer"><span>${esc(s[2]||"link")}</span>${esc(s[0])} ↗</a>`).join("");const stats=[[""+db.tools.length,"Useful Tools"],[""+db.projects.length,"Projects"],[""+(db.skills.length+db.services.length),"Digital Experiments"]];$("#stats").innerHTML=stats.map(x=>`<div class="stat"><b>${esc(x[0])}</b><span>${esc(x[1])}</span></div>`).join("")}function safeUrl(u){try{const x=new URL(u);return["http:","https:"].includes(x.protocol)?x.href:"#"}catch{return"#"}}function renderFilters(){const fs=["All",...new Set([...defaults.categories,...db.categories])];$("#categoryFilters").innerHTML=fs.map((c,i)=>`<button class="filter ${i===0?"active":""}" data-cat="${esc(c)}">${esc(c)}</button>`).join("");document.querySelectorAll(".filter").forEach(b=>b.onclick=()=>{document.querySelectorAll(".filter").forEach(x=>x.classList.remove("active"));b.classList.add("active");renderTools(b.dataset.cat)})}function renderTools(cat="All"){const q=($("#toolSearch")?.value||"").trim().toLowerCase();const arr=db.tools.map((t,i)=>({t,i})).filter(o=>o.t[0]&&o.t[3]).filter(o=>cat==="All"||o.t[2]===cat).filter(o=>[o.t[0],o.t[1],o.t[2]].join(" ").toLowerCase().includes(q));$("#toolGrid").innerHTML=arr.map(o=>{const t=o.t;return`<article class="tool-card"><div class="card-top"><div class="card-icon">${icons.tool}</div><span class="tag">${esc(t[2])}</span></div><h3>${esc(t[0])}</h3><p>${esc(t[1])}</p><div class="tool-foot"><span></span><a class="open-link" href="${safeUrl(t[3])}" target="_blank" rel="noopener noreferrer">Open Tool <span class="i i-arrow"></span></a></div></article>`}).join("");$("#toolEmpty").classList.toggle("hidden",arr.length>0)}$("#toolSearch").addEventListener("input",()=>{const active=document.querySelector(".filter.active");renderTools(active?.dataset.cat||"All")});$("#menuBtn").addEventListener("click",()=>{const n=$("#nav"),open=n.classList.toggle("open");$("#menuBtn").setAttribute("aria-expanded",open)});document.querySelectorAll(".nav a").forEach(a=>a.addEventListener("click",()=>$("#nav").classList.remove("open")));const observer=new IntersectionObserver(es=>es.forEach(e=>{if(e.isIntersecting){document.querySelectorAll(".nav a").forEach(a=>a.classList.toggle("active",a.getAttribute("href")===`#${e.target.id}`))}}),{rootMargin:"-35% 0px -55%"});document.querySelectorAll("section[id]").forEach(s=>observer.observe(s));render();window.addEventListener("storage",e=>{if(e.key===DB_KEY)location.reload()});
+
+
+/* ========================= SUPABASE-READY DATA LAYER =========================
+   Put your Supabase values below later:
+   window.PRACHURJO_SUPABASE = {
+     url: "https://YOUR-PROJECT.supabase.co",
+     anonKey: "YOUR-PUBLISHABLE-OR-ANON-KEY"
+   };
+   Never put a Supabase service-role key here.
+*/
+window.PRACHURJO_SUPABASE = window.PRACHURJO_SUPABASE || {url:"",anonKey:""};
+const CMS_KEY="prachurjoCMS_v2";
+const ADMIN_PAGES={dashboard:"Dashboard",homepage:"Homepage",about:"About",skills:"Skills",tools:"Tools",categories:"Categories",projects:"Projects",services:"Services",contact:"Contact",social:"Social Links",settings:"Site Settings",supabase:"Supabase"};
+function cmsData(){try{return JSON.parse(localStorage.getItem(CMS_KEY))||loadDB()}catch{return loadDB()}}
+function saveCMSData(msg){localStorage.setItem(CMS_KEY,JSON.stringify(db)); if(typeof toastAdmin==="function")toastAdmin(msg||"Saved successfully");}
+function toastAdmin(msg){let t=document.getElementById("adminToast");if(!t){t=document.createElement("div");t.id="adminToast";t.className="admin-toast";document.body.appendChild(t)}t.textContent=msg;t.classList.add("show");setTimeout(()=>t.classList.remove("show"),2200)}
+function validHttpUrl(u){try{const x=new URL(u);return ["http:","https:"].includes(x.protocol)}catch{return false}}
+function adminEsc(s){return esc(s)}
+function adminFormFields(fields){return `<div class="admin-form">${fields.map(f=>`<div class="admin-field ${f[3]?"full":""}"><label>${adminEsc(f[1])}</label>${f[4]==="textarea"?`<textarea name="${f[0]}" required>${adminEsc(f[2])}</textarea>`:`<input name="${f[0]}" type="${f[4]||"text"}" value="${adminEsc(f[2])}" required>`}</div>`).join("")}</div>`}
+function adminOpen(){document.getElementById("adminPanel").classList.remove("hidden");adminShow("dashboard");history.replaceState(null,"","#admin")}
+function adminClose(){document.getElementById("adminPanel").classList.add("hidden");if(location.hash==="#admin")history.replaceState(null,"",location.pathname+location.search)}
+function adminShow(page){
+ document.querySelectorAll("#adminNav button").forEach(b=>b.classList.toggle("active",b.dataset.adminPage===page));
+ document.getElementById("adminTitle").textContent=ADMIN_PAGES[page]||"Dashboard";
+ const app=document.getElementById("adminApp");
+ if(page==="dashboard")app.innerHTML=adminDashboard();
+ else if(page==="homepage")app.innerHTML=adminHomepage();
+ else if(page==="about")app.innerHTML=adminAbout();
+ else if(page==="skills")app.innerHTML=adminSkills();
+ else if(page==="tools")app.innerHTML=adminTools();
+ else if(page==="categories")app.innerHTML=adminCategories();
+ else if(page==="projects")app.innerHTML=adminProjects();
+ else if(page==="services")app.innerHTML=adminServices();
+ else if(page==="contact")app.innerHTML=adminContact();
+ else if(page==="social")app.innerHTML=adminSocial();
+ else if(page==="settings")app.innerHTML=adminSettings();
+ else if(page==="supabase")app.innerHTML=adminSupabase();
+}
+function adminDashboard(){return `<div class="admin-cards"><div class="admin-card"><b>${db.tools.length}</b><span>Total Tools</span></div><div class="admin-card"><b>${db.tools.length}</b><span>Active Tools</span></div><div class="admin-card"><b>0</b><span>Hidden Tools</span></div><div class="admin-card"><b>${db.projects.length}</b><span>Projects</span></div><div class="admin-card"><b>${db.services.length}</b><span>Services</span></div></div><div class="admin-panel-box"><h3>Quick Actions</h3><button class="btn primary" data-admin-action="add-tool">+ Add Tool</button> <button class="btn" data-admin-action="add-project">+ Add Project</button> <button class="btn" data-admin-action="add-service">+ Add Service</button></div><div class="admin-panel-box"><h3>Cloud status</h3><div class="admin-notice">${window.PRACHURJO_SUPABASE.url&&window.PRACHURJO_SUPABASE.anonKey?"Supabase credentials are configured. The next step is enabling the database adapter/RLS policies.":"Supabase is not configured yet. The site currently works with localStorage. Open the Supabase section to add your Project URL and Publishable/Anon key."}</div></div>`}
+function adminHomepage(){return `<div class="admin-panel-box"><h3>Homepage Content</h3><form id="adminHomeForm">${adminFormFields([["eyebrow","Hero Eyebrow",db.homepage.eyebrow],["title","Hero Title",db.homepage.title],["description","Hero Description",db.homepage.description,true,"textarea"],["toolsCta","Tools CTA",db.homepage.toolsCta],["projectsCta","Projects CTA",db.homepage.projectsCta],["aboutIntro","About Introduction",db.about.intro,true,"textarea"]])}<div class="admin-form-actions"><button class="btn primary">Save Homepage</button></div></form></div>`}
+function adminAbout(){return `<div class="admin-panel-box"><h3>About</h3><form id="adminAboutForm">${adminFormFields([["intro","Introduction",db.about.intro,true,"textarea"]])}<div id="aboutRows">${db.about.points.map((p,i)=>`<div class="repeat-row" style="display:flex;gap:7px;margin:8px 0"><input data-about="${i}" data-k="0" value="${adminEsc(p[0])}"><input data-about="${i}" data-k="1" value="${adminEsc(p[1])}"><button type="button" class="btn" data-remove-about="${i}">×</button></div>`).join("")}</div><div class="admin-form-actions"><button type="button" class="btn" data-add-about>Add Point</button><button class="btn primary">Save About</button></div></form></div>`}
+function adminSkills(){return `<div class="admin-panel-box"><h3>Skills <button class="btn primary" data-admin-action="add-skill">+ Add</button></h3><div class="admin-table-wrap"><table class="admin-table"><tr><th>Skill</th><th>Description</th><th>Level</th><th>Actions</th></tr>${db.skills.map((s,i)=>`<tr><td>${adminEsc(s[0])}</td><td>${adminEsc(s[1])}</td><td>${s[2]}%</td><td><button class="admin-action" data-edit="skill:${i}">Edit</button><button class="admin-action" data-delete="skill:${i}">Delete</button></td></tr>`).join("")}</table></div></div>`}
+function adminTools(){return `<div class="admin-panel-box"><h3>Tools <button class="btn primary" data-admin-action="add-tool">+ Add New Tool</button></h3><div class="admin-table-wrap"><table class="admin-table"><tr><th>Tool</th><th>Category</th><th>URL</th><th>Status</th><th>Actions</th></tr>${db.tools.map((t,i)=>`<tr><td>${adminEsc(t[0])}</td><td>${adminEsc(t[2])}</td><td>${adminEsc(t[3])}</td><td><span class="admin-status">Active</span></td><td><button class="admin-action" data-edit="tool:${i}">Edit</button><button class="admin-action" data-delete="tool:${i}">Delete</button></td></tr>`).join("")}</table></div></div>`}
+function adminCategories(){return `<div class="admin-panel-box"><h3>Categories <button class="btn primary" data-admin-action="add-category">+ Add Category</button></h3><div class="quick">${db.categories.map((c,i)=>`<span class="tag">${adminEsc(c)} <button class="admin-action" data-delete="category:${i}">×</button></span>`).join(" ")}</div></div>`}
+function adminProjects(){return `<div class="admin-panel-box"><h3>Projects <button class="btn primary" data-admin-action="add-project">+ Add Project</button></h3><div class="admin-table-wrap"><table class="admin-table"><tr><th>Title</th><th>Description</th><th>Technology</th><th>Actions</th></tr>${db.projects.map((p,i)=>`<tr><td>${adminEsc(p[0])}</td><td>${adminEsc(p[1])}</td><td>${adminEsc((p[2]||[]).join(", "))}</td><td><button class="admin-action" data-edit="project:${i}">Edit</button><button class="admin-action" data-delete="project:${i}">Delete</button></td></tr>`).join("")}</table></div></div>`}
+function adminServices(){return `<div class="admin-panel-box"><h3>Services <button class="btn primary" data-admin-action="add-service">+ Add Service</button></h3><div class="admin-table-wrap"><table class="admin-table"><tr><th>Service</th><th>Description</th><th>Actions</th></tr>${db.services.map((s,i)=>`<tr><td>${adminEsc(s[0])}</td><td>${adminEsc(s[1])}</td><td><button class="admin-action" data-edit="service:${i}">Edit</button><button class="admin-action" data-delete="service:${i}">Delete</button></td></tr>`).join("")}</table></div></div>`}
+function adminContact(){return `<div class="admin-panel-box"><h3>Contact</h3><form id="adminContactForm">${adminFormFields([["email","Email",db.contact.email],["text","Contact Text",db.contact.text,true,"textarea"]])}<div class="admin-form-actions"><button class="btn primary">Save Contact</button></div></form></div>`}
+function adminSocial(){return `<div class="admin-panel-box"><h3>Social Links <button class="btn primary" data-admin-action="add-social">+ Add Link</button></h3><div class="admin-table-wrap"><table class="admin-table"><tr><th>Name</th><th>URL</th><th>Icon</th><th>Actions</th></tr>${db.socialLinks.map((s,i)=>`<tr><td>${adminEsc(s[0])}</td><td>${adminEsc(s[1])}</td><td>${adminEsc(s[2])}</td><td><button class="admin-action" data-edit="social:${i}">Edit</button><button class="admin-action" data-delete="social:${i}">Delete</button></td></tr>`).join("")}</table></div></div>`}
+function adminSettings(){return `<div class="admin-panel-box"><h3>Site Settings</h3><form id="adminSettingsForm">${adminFormFields([["brand","Brand Name",db.siteSettings.brand],["footer","Footer Tagline",db.siteSettings.footer]])}<div class="admin-form-actions"><button class="btn primary">Save Settings</button></div></form></div>`}
+function adminSupabase(){return `<div class="admin-panel-box"><h3>Supabase Connection</h3><div class="admin-notice">Use only your Project URL and Publishable/Anon key. Never put the Service Role Key in this HTML.</div><br><form id="supabaseForm">${adminFormFields([["url","Supabase Project URL",window.PRACHURJO_SUPABASE.url],["anonKey","Publishable / Anon Key",window.PRACHURJO_SUPABASE.anonKey]])}<div class="admin-form-actions"><button class="btn primary">Save Supabase Config</button></div></form></div><div class="admin-panel-box"><h3>Database tables</h3><div class="admin-notice">Recommended tables: site_settings, homepage, about, skills, categories, tools, projects, services, contact, social_links. Add Row Level Security policies before allowing public writes.</div></div>`}
+function adminModal(title,fields,type,index=-1){
+ let modal=document.getElementById("adminModal");if(!modal){modal=document.createElement("div");modal.id="adminModal";modal.className="admin-modal hidden";modal.innerHTML='<div class="admin-modal-box"><button class="admin-modal-close" data-close-modal>×</button><div id="adminModalBody"></div></div>';document.body.appendChild(modal)}
+ document.getElementById("adminModalBody").innerHTML=`<h3>${title}</h3><form id="entityForm" data-type="${type}" data-index="${index}">${adminFormFields(fields)}<div class="admin-form-actions"><button type="button" class="btn" data-close-modal>Cancel</button><button class="btn primary">Save</button></div></form>`;modal.classList.remove("hidden")
+}
+document.getElementById("openAdmin").addEventListener("click",adminOpen);
+document.getElementById("closeAdmin").addEventListener("click",adminClose);
+document.querySelectorAll("[data-admin-page]").forEach(b=>b.addEventListener("click",()=>adminShow(b.dataset.adminPage)));
+document.getElementById("adminNav").addEventListener("click",e=>{const b=e.target.closest("[data-admin-page]");if(b)adminShow(b.dataset.adminPage)});
+document.getElementById("adminApp").addEventListener("click",e=>{
+ const a=e.target.closest("[data-admin-action]")?.dataset.adminAction;
+ if(a==="add-tool")adminModal("Add Tool",[["name","Tool Name",""],["description","Description","",true,"textarea"],["category","Category",db.categories[0]||"Utility"],["url","Tool URL","https://example.com"]],"tool");
+ if(a==="add-project")adminModal("Add Project",[["name","Project Title",""],["description","Description","",true,"textarea"],["tech","Technologies (comma separated)","HTML, CSS, JavaScript"],["url","Project URL","https://example.com"],["github","GitHub URL","https://github.com/"]],"project");
+ if(a==="add-service")adminModal("Add Service",[["name","Service Name",""],["description","Description","",true,"textarea"]],"service");
+ if(a==="add-skill")adminModal("Add Skill",[["name","Skill Name",""],["description","Description",""],["level","Level 0-100","80",false,"number"]],"skill");
+ if(a==="add-category")adminModal("Add Category",[["name","Category Name",""]],"category");
+ if(a==="add-social")adminModal("Add Social Link",[["name","Platform",""],["url","URL","https://example.com"],["icon","Icon key","link"]],"social");
+});
+document.getElementById("adminApp").addEventListener("click",e=>{
+ const edit=e.target.closest("[data-edit]")?.dataset.edit, del=e.target.closest("[data-delete]")?.dataset.delete;
+ if(edit){const [type,idx]=edit.split(":");const i=+idx;
+   if(type==="tool"){const x=db.tools[i];adminModal("Edit Tool",[["name","Tool Name",x[0]],["description","Description",x[1],true,"textarea"],["category","Category",x[2]],["url","Tool URL",x[3]]],"tool",i)}
+   if(type==="project"){const x=db.projects[i];adminModal("Edit Project",[["name","Project Title",x[0]],["description","Description",x[1],true,"textarea"],["tech","Technologies (comma separated)",(x[2]||[]).join(", ")],["url","Project URL",x[3]],["github","GitHub URL",x[4]||""]],"project",i)}
+   if(type==="service"){const x=db.services[i];adminModal("Edit Service",[["name","Service Name",x[0]],["description","Description",x[1],true,"textarea"]],"service",i)}
+   if(type==="skill"){const x=db.skills[i];adminModal("Edit Skill",[["name","Skill Name",x[0]],["description","Description",x[1]],["level","Level 0-100",x[2],false,"number"]],"skill",i)}
+   if(type==="social"){const x=db.socialLinks[i];adminModal("Edit Social Link",[["name","Platform",x[0]],["url","URL",x[1]],["icon","Icon key",x[2]]],"social",i)}
+   if(type==="category"){adminModal("Edit Category",[["name","Category Name",db.categories[i]]],"category",i)}
+ }
+ if(del){const [type,idx]=del.split(":");const i=+idx;if(!confirm("Delete this item?"))return;
+   if(type==="tool")db.tools.splice(i,1);if(type==="project")db.projects.splice(i,1);if(type==="service")db.services.splice(i,1);if(type==="skill")db.skills.splice(i,1);if(type==="social")db.socialLinks.splice(i,1);if(type==="category")db.categories.splice(i,1);saveCMSData("Deleted successfully");adminShow(type==="category"?"categories":type==="tool"?"tools":type==="project"?"projects":type==="service"?"services":type==="skill"?"skills":"social");
+ }
+});
+document.addEventListener("click",e=>{
+ if(e.target.matches("[data-close-modal]")||e.target.closest("[data-close-modal]")){const m=document.getElementById("adminModal");if(m)m.classList.add("hidden")}
+});
+document.addEventListener("submit",e=>{
+ if(e.target.id==="entityForm"){e.preventDefault();const f=e.target,v=Object.fromEntries(new FormData(f)),type=f.dataset.type,i=+f.dataset.index;
+   if(type==="tool"){if(!validHttpUrl(v.url))return toastAdmin("Tool URL must be HTTP/HTTPS");const x=[v.name,v.description,v.category,v.url];i>=0?db.tools[i]=x:db.tools.push(x);saveCMSData(i>=0?"Tool updated successfully":"Tool added successfully");}
+   if(type==="project"){const x=[v.name,v.description,v.tech.split(",").map(s=>s.trim()).filter(Boolean),v.url,v.github];i>=0?db.projects[i]=x:db.projects.push(x);saveCMSData("Project saved successfully")}
+   if(type==="service"){const x=[v.name,v.description];i>=0?db.services[i]=x:db.services.push(x);saveCMSData("Service saved successfully")}
+   if(type==="skill"){const x=[v.name,v.description,Math.max(0,Math.min(100,+v.level||0))];i>=0?db.skills[i]=x:db.skills.push(x);saveCMSData("Skill saved successfully")}
+   if(type==="category"){if(!v.name.trim())return toastAdmin("Category required");if(i>=0)db.categories[i]=v.name.trim();else db.categories.push(v.name.trim());saveCMSData("Category saved successfully")}
+   if(type==="social"){if(!validHttpUrl(v.url))return toastAdmin("URL must be HTTP/HTTPS");const x=[v.name,v.url,v.icon];i>=0?db.socialLinks[i]=x:db.socialLinks.push(x);saveCMSData("Social link saved successfully")}
+   document.getElementById("adminModal").classList.add("hidden");adminShow(type==="category"?"categories":type==="tool"?"tools":type==="project"?"projects":type==="service"?"services":type==="skill"?"skills":"social");render();
+ }
+ if(e.target.id==="adminHomeForm"){e.preventDefault();const v=Object.fromEntries(new FormData(e.target));db.homepage={eyebrow:v.eyebrow,title:v.title,description:v.description,toolsCta:v.toolsCta,projectsCta:v.projectsCta};db.about.intro=v.aboutIntro;saveCMSData("Homepage updated successfully");render()}
+ if(e.target.id==="adminAboutForm"){e.preventDefault();db.about.intro=e.target.elements.intro.value;e.target.querySelectorAll("[data-about]").forEach(x=>db.about.points[+x.dataset.about][+x.dataset.k]=x.value);saveCMSData("About updated successfully");render()}
+ if(e.target.id==="adminContactForm"){e.preventDefault();db.contact=Object.fromEntries(new FormData(e.target));saveCMSData("Contact updated successfully");render()}
+ if(e.target.id==="adminSettingsForm"){e.preventDefault();db.siteSettings=Object.fromEntries(new FormData(e.target));saveCMSData("Settings updated successfully");render()}
+ if(e.target.id==="supabaseForm"){e.preventDefault();const v=Object.fromEntries(new FormData(e.target));window.PRACHURJO_SUPABASE=v;localStorage.setItem("prachurjoSupabaseConfig",JSON.stringify(v));saveCMSData("Supabase config saved");}
+});
+document.addEventListener("click",e=>{
+ if(e.target.matches("[data-add-about]")){db.about.points.push(["New Point","Description"]);adminShow("about")}
+ if(e.target.matches("[data-remove-about]")){db.about.points.splice(+e.target.dataset.removeAbout,1);adminShow("about")}
+});
+try{const cfg=JSON.parse(localStorage.getItem("prachurjoSupabaseConfig"));if(cfg)window.PRACHURJO_SUPABASE=cfg}catch{}
+if(location.hash==="#admin")adminOpen();
+window.addEventListener("storage",e=>{if(e.key===CMS_KEY){location.reload()}});
+
+// Keep public page and admin data aligned.
+const originalRender=render;render=function(){const d=cmsData();Object.assign(db,d);originalRender()};render();
+
+</script>
+</body>
+</html>

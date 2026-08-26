@@ -1,0 +1,100 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Favicon & App Icons (Google Search & Browser Standard) -->
+    <link rel="icon" type="image/png" href="/prachurjo-48.png" />
+    <link rel="shortcut icon" type="image/png" href="/prachurjo-48.png" />
+    <link rel="apple-touch-icon" sizes="180x180" href="/prachurjo-180.png" />
+    <link rel="manifest" href="/site.webmanifest" />
+    <meta name="theme-color" content="#8b5cf6" />
+
+    <!-- Performance Preconnect & DNS-Prefetch Hints -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link rel="dns-prefetch" href="https://pagead2.googlesyndication.com" />
+    <link rel="dns-prefetch" href="https://tpc.googlesyndication.com" />
+    <link rel="dns-prefetch" href="https://googleads.g.doubleclick.net" />
+
+    <!-- Primary Meta Tags -->
+    <title>Prachurjo - Free Creator & AI Studio | Prompts, Thumbnail Downloader & SEO Tools</title>
+    <meta name="title" content="Prachurjo - Free Creator & AI Studio | Prompts, Thumbnail Downloader & SEO Tools">
+    <meta name="description" content="All-in-one free suite for content creators: Midjourney/FLUX AI image prompts hub, 4K YouTube thumbnail downloader, Gemini AI channel analyzer, title/description generators, and image converters.">
+    <meta name="keywords" content="prachurjo, ai prompts hub, midjourney prompts, youtube thumbnail downloader, channel analyzer, title generator, image converter, free creator tools">
+    <meta name="robots" content="index, follow">
+    <meta name="language" content="English">
+    <link rel="canonical" href="https://www.prachurjo.online/" />
+
+    <!-- Google AdSense: High-Performance Non-Blocking Lazy Loader for 90+ Mobile Score -->
+    <script>
+      (function() {
+        var loaded = false;
+        function loadGoogleAds() {
+          if (loaded) return;
+          loaded = true;
+          var s = document.createElement('script');
+          s.src = 'https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2554272823968961';
+          s.async = true;
+          s.crossOrigin = 'anonymous';
+          document.head.appendChild(s);
+        }
+        if (document.readyState === 'complete') {
+          setTimeout(loadGoogleAds, 1000);
+        } else {
+          window.addEventListener('load', function() {
+            if ('requestIdleCallback' in window) {
+              requestIdleCallback(loadGoogleAds, { timeout: 2000 });
+            } else {
+              setTimeout(loadGoogleAds, 1200);
+            }
+          });
+        }
+      })();
+    </script>
+
+    <!-- Open Graph / Facebook -->
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://www.prachurjo.online/">
+    <meta property="og:title" content="Prachurjo Tools - Free Online Prachurjo Tools">
+    <meta property="og:description" content="Quickly process your images, text, and videos with Prachurjo Tools. No registration required, fully client-side and secure.">
+    <meta property="og:image" content="/prachurjo-512.png">
+
+    <!-- Google FAQ Structured Data (Schema Markup) -->
+    <script type="application/ld+json">
+    {
+      "@context": "https://schema.org",
+      "@type": "FAQPage",
+      "mainEntity": [{
+        "@type": "Question",
+        "name": "Is Prachurjo Tools completely free to use?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Yes, Prachurjo Tools is 100% free with no hidden charges or login requirements for all global users."
+        }
+      }, {
+        "@type": "Question",
+        "name": "How to download high-resolution YouTube thumbnails?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Simply paste the YouTube video URL into our YouTube Thumbnail Downloader tool, and click download to get the Full HD (1080p) image instantly."
+        }
+      }, {
+        "@type": "Question",
+        "name": "Does the image compressor reduce picture quality?",
+        "acceptedAnswer": {
+          "@type": "Answer",
+          "text": "Our smart compression algorithm reduces file size by converting images to WebP format, keeping the visual quality intact while optimizing it for web speed."
+        }
+      }]
+    }
+    </script>
+      <!-- Google AdSense -->
+    <script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2554272823968961" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
+

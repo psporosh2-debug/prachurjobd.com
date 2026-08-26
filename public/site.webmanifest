@@ -1,0 +1,17 @@
+{
+  "name": "Prachurjo Creator & AI Studio",
+  "short_name": "Prachurjo",
+  "description": "Free All-in-One Creator & AI Studio for YouTube, Image Prompts, and Design Utilities",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0f172a",
+  "theme_color": "#8b5cf6",
+  "icons": [
+    {
+      "src": "/prachurjo-512.png",
+      "sizes": "512x512",
+      "type": "image/png",
+      "purpose": "any maskable"
+    }
+  ]
+}
